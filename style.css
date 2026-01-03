@@ -83,7 +83,7 @@ body{
 }
 .home {
     height: 100vh;
-    background-image: url(../img/photo_2026-01-01_22-39-15.jpg);
+    background-image: url("images/photo_2026-01-01_22-39-15.jpg");
     filter: drop-shadow(0 0 40px rgba(0, 150, 255, 0.4));
     background-repeat: no-repeat;
     background-position: top ;
