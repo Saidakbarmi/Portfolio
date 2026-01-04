@@ -11,6 +11,11 @@
     
     <header class="header">
         <a href="#" class="logo">Abdujabborov</a>
+          <div class="menu-toggle" id="menu-toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
         <nav class="navbar">
             <a href="#" class="active">Home</a>
             <a href="#">About</a>
@@ -44,6 +49,12 @@
 
 
 
-    
+    <script>const menuToggle = document.getElementById("menu-toggle");
+const navbar = document.getElementById("navbar");
+
+menuToggle.addEventListener("click", () => {
+  navbar.classList.toggle("active");
+});
+</script>
 </body>
 </html>
